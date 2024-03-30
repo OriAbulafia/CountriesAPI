@@ -1,0 +1,48 @@
+body {
+  font-size: 16px;
+}
+
+.btn:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.11);
+}
+
+.btn.btn-back {
+  margin: 60px 0;
+}
+
+.btn.btn-with-icon {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.container {
+  display: flex;
+}
+.flag-container {
+  flex: 1;
+  padding: 20px;
+}
+.flag {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+.details-container {
+  flex: 1;
+  padding: 20px;
+}
+.details {
+  list-style-type: none;
+  padding: 0;
+}
+.details li {
+  margin-bottom: 7px;
+  margin-left: 20px;
+  
+}
+.title {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
